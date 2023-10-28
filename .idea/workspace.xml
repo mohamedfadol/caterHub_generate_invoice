@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc5e975-1354-42a7-873f-ae974e995f0b" name="Changes" comment="" />
+    <list default="true" id="0cc5e975-1354-42a7-873f-ae974e995f0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/pdf_invoice_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/pdf_invoice_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/invoice.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/invoice.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/supplier.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/vendor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/pdf_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/pdf_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utility/invoice.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utility/pdf_api.dart" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XLMKhrCT3G9PQCUTQPGaObcwB5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
@@ -65,5 +77,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

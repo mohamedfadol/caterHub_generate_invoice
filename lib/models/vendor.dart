@@ -1,9 +1,9 @@
-class Supplier {
+class Vendor {
   final String name;
   final String address;
   final String paymentInfo;
 
-  const Supplier({
+  const Vendor({
     required this.name,
     required this.address,
     required this.paymentInfo,

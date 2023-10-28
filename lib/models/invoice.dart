@@ -1,9 +1,9 @@
 import 'package:invoice/models/customer.dart';
-import 'package:invoice/models/supplier.dart';
+import 'package:invoice/models/vendor.dart';
 
 class Invoice {
   final InvoiceInfo info;
-  final Supplier supplier;
+  final Vendor supplier;
   final Customer customer;
   final List<InvoiceItem> items;
 

@@ -6,7 +6,7 @@ import 'package:pdf/widgets.dart';
 
 import '../models/customer.dart';
 import '../models/invoice.dart';
-import '../models/supplier.dart';
+import '../models/vendor.dart';
 import '../utils.dart';
 
 class PdfInvoiceApi {
@@ -92,7 +92,7 @@ class PdfInvoiceApi {
     );
   }
 
-  static Widget buildSupplierAddress(Supplier supplier) => Column(
+  static Widget buildSupplierAddress(Vendor supplier) => Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Text(supplier.name, style: TextStyle(fontWeight: FontWeight.bold)),

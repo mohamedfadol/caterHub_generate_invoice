@@ -5,7 +5,7 @@ import '../api/pdf_invoice_api.dart';
 import '../main.dart';
 import '../models/customer.dart';
 import '../models/invoice.dart';
-import '../models/supplier.dart';
+import '../models/vendor.dart';
 import '../widget/button_widget.dart';
 import '../widget/title_widget.dart';
 
@@ -41,7 +41,7 @@ class _PdfPageState extends State<PdfPage> {
                 final dueDate = date.add(Duration(days: 7));
 
                 final invoice = Invoice(
-                  supplier: Supplier(
+                  supplier: Vendor(
                     name: 'Mohamed  Fadol',
                     address: 'King Fahd Street 9, Al Olaya, Riyadh',
                     paymentInfo: 'https://paypal.me/mohamed-fadol',
